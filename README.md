@@ -106,7 +106,7 @@ The script generates:
 1. Clone or download the repository  
 2. Open MATLAB  
 3. Run the script:
-4. 
+
 ```matlab
 bms_simulation.m
 ```
