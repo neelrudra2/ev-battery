@@ -107,9 +107,9 @@ The script generates:
 2. Open MATLAB  
 3. Run the script:
 
-```matlab
-bms_simulation.m
-```
+  ```matlab
+  bms_simulation.m
+  ```
 
 4. Observe voltage, temperature, SOC plots and fault status output
 
