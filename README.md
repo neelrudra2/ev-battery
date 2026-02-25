@@ -76,18 +76,34 @@ This demonstrates simplified balancing behavior used in EV battery packs.
 ## 📊 Simulation Output
 
 The script generates:
-
-- Cell voltage variation plot  
-- Temperature rise plot  
-- State-of-Charge (SoC) plot  
-- Fault status output  
-- Estimated energy loss due to internal resistance  
+ 
+- State-of-Charge (SoC) estimation plot  
+- Cell temperature rise plot
+- Cell voltage variation plot
 
 ---
 
-## 🖼️ Sample Output Graphs
+## 📊 Simulation Results
 
-*(Add simulation plots here)*
+<table>
+  <tr>
+    <td align="center">
+      <img src="cell-volt-balancing.jpg" width="100%">
+      <br><b>Cell Voltage with Passive Balancing</b>
+    </td>
+    <td align="center">
+      <img src="cell-temp-rise.jpg" width="100%">
+      <br><b>Cell Temperature Rise (I²R Heating)</b>
+    </td>
+  </tr>
+</table>
+
+<br>
+
+<p align="center">
+  <img src="soc-estimation.jpg" width="70%">
+  <br><b>State of Charge (SoC) Estimation using Coulomb Counting</b>
+</p>
 
 ---
 
